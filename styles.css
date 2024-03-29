@@ -72,6 +72,14 @@
     display: inline-block;
 }
 
+.smaller-circle {
+    height: 35px;
+    width: 35px;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+}
+
 #profile-icon {
     background-image: url(./icons/4500_1_01.jpg);
     background-size: cover;
@@ -201,7 +209,7 @@
 .main-content-holder {
     height: 80%;
     width: 95%;
-    background-color: lightgreen;
+    background-color: #E2E8F0;
     display: grid;
     grid-template: 1fr / 2fr 1fr;
 }
@@ -250,4 +258,93 @@ a {
 .card-icon-holder > span {
     font-size: 19px;
     color: black
+}
+
+.news-holder {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    background-color: #E2E8F0;
+    justify-items: center;
+    gap: 20px;
+}
+
+.announcement-container {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    color: gray;
+    font-size: 11px;
+    border-radius: 8px;
+}
+
+.announcement-container > span {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.trending-container {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    background-color: white;
+    color: gray;
+    font-size: 11px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.trending-flex-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.black {
+    color: black;
+}
+
+.unicorn-photo {
+    background-image: url(./icons/7460666.jpg);
+    background-size: cover;
+}
+
+.cat-photo {
+    background-image: url(./icons/4500_1_01.jpg);
+    background-size: cover;
+}
+.spider-photo {
+    background-image: url(./icons/8997043.jpg);
+    background-size: cover;
+}
+
+.penguin-photo {
+    background-image: url(./icons/10300_5-08.jpg);
+    background-size: cover;
+}
+
+.section-titles {
+    font-size: 17px;
+}
+
+#your-project {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#announcements {
+    position: absolute;
+    top: 30px;
+    right: 254px;
+}
+
+#trending {
+    position: absolute;
+    top: 330px;
+    right: 309px;
 }
