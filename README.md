@@ -1,1 +1,1 @@
-# admin-dashboard
+An Admin Dashboard built with HTML and CSS using a Grid layout
